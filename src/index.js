@@ -4,6 +4,6 @@ import {PORT} from './config.js'
 // settings
 app.set("port", PORT);
 
-app.listen();
+app.listen(PORT);
 
 console.log(`Server on port ${PORT}`);
